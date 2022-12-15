@@ -42,8 +42,15 @@
 
 ![a](https://user-images.githubusercontent.com/78825764/207860373-a0262e9a-888a-42ea-b425-bb05e35e0f35.PNG)
 
-- Go to Model Registry , vous allez trouver le modèle qu'on a enregistré :
+- Executer les autres cellules d'evalution de modèle et de Batch prediction .
 
+- Lorsque vous allez executer cette cellule vous pouvez inspecter le modèle sur Vertex AI Model Registry :
+
+![a](https://user-images.githubusercontent.com/78825764/207865216-4ac469fc-569e-45f8-ba66-8d1af282d523.PNG)
+
+
+- Go to Model Registry , vous allez trouver le modèle qu'on a enregistré :
+ 
 
 ![a](https://user-images.githubusercontent.com/78825764/207861076-3cb587f1-dfde-40a8-a699-df63aa8a9b9e.PNG)
 
@@ -56,3 +63,5 @@
 
 
 ![a](https://user-images.githubusercontent.com/78825764/207863158-cdfe6ab1-2c77-4451-a535-30535870ce4e.PNG)
+
+- 
