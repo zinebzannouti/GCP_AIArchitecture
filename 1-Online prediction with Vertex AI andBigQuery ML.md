@@ -1,3 +1,58 @@
 # Online prediction with Vertex AI andBigQuery ML
 
-**Dans ce didacticiel, vous allez apprendre à former et à déployer un modèle de prédiction de churn pour l'inférence en temps réel, avec les données dans BigQuery et le modèle formé à l'aide de BigQuery ML, enregistré dans Vertex AI Model Registry et déployé sur un Endpoint sur Vertex AI pour une utilisation  de prédiction en ligne.**
+**Dans ce tuto, vous allez apprendre à former et à déployer un modèle de prédiction de churn pour l'inférence en temps réel, avec les données dans BigQuery et le modèle formé à l'aide de BigQuery ML, enregistré dans Vertex AI Model Registry et déployé sur un Endpoint sur Vertex AI pour une utilisation  de prédiction en ligne.**
+
+- Ce tutoriel utilise les services d'analyse de données et de ML Google Cloud suivants :
+
+  - BigQuery
+  - BigQuery ML
+  - Vertex AI Model Registry
+  - Vertex endpoints
+
+- Les étapes effectuées comprennent :
+
+  - Utiliser Python et SQL pour interroger les données publiques dans BigQuery
+  - Préparation des données pour la modélisation
+  - Entraîner un modèle de classification à l'aide de BigQuery ML et l'enregistrer dans Vertex AI Model Registry
+  - Inspecter le modèle sur Vertex AI Model Registry
+  - Déploiement du modèle sur un endpoint sur Vertex AI
+  - Réalisation d'exemples de prédictions en ligne vers le point de terminaison du modèle
+
+
+- On va travailler avec ce notebook dans ce tuto :
+
+
+
+![a](https://user-images.githubusercontent.com/78825764/207851323-e650c847-e680-481a-bdd8-cff50900894c.PNG)
+
+
+- Liser et exécuter les cellules en faisant attention à les instructions .
+
+- Ignorer cette étape
+ 
+![a](https://user-images.githubusercontent.com/78825764/207851823-ab681f4a-9abd-4b32-9dcb-da373c6d5eaa.PNG)
+
+- ignorez également cette étape puisque nous travaillons dans Vertex AI Workbench Notebooks
+
+
+![a](https://user-images.githubusercontent.com/78825764/207852308-7ff8a39a-bfa7-4550-9b48-03bf97d6fe12.PNG)
+
+- Dans la partie **Train a classification model using BigQuery ML** quand vous allez executer cette cellule pour entrainer et enregistrer votre model :
+
+
+![a](https://user-images.githubusercontent.com/78825764/207860373-a0262e9a-888a-42ea-b425-bb05e35e0f35.PNG)
+
+- Go to Model Registry , vous allez trouver le modèle qu'on a enregistré :
+
+
+![a](https://user-images.githubusercontent.com/78825764/207861076-3cb587f1-dfde-40a8-a699-df63aa8a9b9e.PNG)
+
+- Cliquer sur le modèle ensuite sur la version , normalement on a juste une seul version :
+
+![a](https://user-images.githubusercontent.com/78825764/207862099-b0791cb4-fcf7-4188-9fef-ecc5b78d027b.PNG)
+
+- Vous pouvez visualiser les différants metrics pour évaluer le modèle :
+
+
+
+![a](https://user-images.githubusercontent.com/78825764/207863158-cdfe6ab1-2c77-4451-a535-30535870ce4e.PNG)
