@@ -77,6 +77,6 @@
 
 ![a](https://user-images.githubusercontent.com/78825764/207867356-ff0c1b82-fb92-44b0-adfa-2d9350a6557c.PNG)
 
+- Maintenant on peut déployer notre modèle en éxecutant cette cellule , ça peut prendre entre 10-15 minutes  :
 
-
-
+![a](https://user-images.githubusercontent.com/78825764/207867870-6aa3d5aa-a100-42ee-bc60-dff83d039ed9.PNG)
