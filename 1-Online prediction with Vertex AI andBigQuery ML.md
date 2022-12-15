@@ -80,3 +80,13 @@
 - Maintenant on peut déployer notre modèle en éxecutant cette cellule , ça peut prendre entre 10-15 minutes  :
 
 ![a](https://user-images.githubusercontent.com/78825764/207867870-6aa3d5aa-a100-42ee-bc60-dff83d039ed9.PNG)
+
+## Make online predictions to the endpoint :
+
+- À l'aide d'un échantillon des données d'entraînement, vous pouvez tester le point de terminaison pour effectuer des prédictions en ligne.
+
+- Exécuter ces deux cellules :
+
+![a](https://user-images.githubusercontent.com/78825764/207879802-65320725-22a9-444b-ae9c-bc864a23c867.PNG)
+
+![a](https://user-images.githubusercontent.com/78825764/207880537-95abebd7-761f-4dac-bc49-0b11fca11458.PNG)
