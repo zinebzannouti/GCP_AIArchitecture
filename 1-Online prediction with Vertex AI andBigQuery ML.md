@@ -64,4 +64,19 @@
 
 ![a](https://user-images.githubusercontent.com/78825764/207863158-cdfe6ab1-2c77-4451-a535-30535870ce4e.PNG)
 
-- 
+## Deploy the model to an endpoint
+
+- Après avoir entrainer et enregistrer notre modèle , on peut maintenant passer à l'étape de déploiement .
+
+- Exécuter ces cellules : 
+
+
+![a](https://user-images.githubusercontent.com/78825764/207865830-5056c218-2482-406f-9496-12bfe58ef149.PNG)
+
+- On remarque qu'on a créer un endpoint pour notre modèle, on peut checker que le point de terminaison a bien été créer en cliquant sur Points de Terminaison sur le menu de Vertex AI :
+
+![a](https://user-images.githubusercontent.com/78825764/207867356-ff0c1b82-fb92-44b0-adfa-2d9350a6557c.PNG)
+
+
+
+
