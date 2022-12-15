@@ -23,3 +23,10 @@
 
 ![a](https://user-images.githubusercontent.com/78825764/207837472-91903540-d4a9-461b-8864-d3763bf6d586.PNG)
 
+- Après la création de votre notebook , cliquer sur ouvrir JUPYTERLAB :
+
+![a](https://user-images.githubusercontent.com/78825764/207846905-18af2bdf-2d72-4de4-922a-09fdcfb2dfe9.PNG)
+
+- Cliquer sur tutorials > vertex_samples > official > bigquery_ml > bqml-online-prediction.ipynb
+
+![a](https://user-images.githubusercontent.com/78825764/207847143-9daedd59-9841-4806-8e95-5d4b786a330f.PNG)
